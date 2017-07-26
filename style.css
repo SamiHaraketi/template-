@@ -293,10 +293,10 @@ img
 .contact
 {
     width: 1200px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto ;
     margin-top: 50px;
-    display: table;
 }
 .text-contact
 {
@@ -309,7 +309,10 @@ img
 .contact form
 {
     padding: 5px;
+    display: table;
+
 }
+
 input[type=text]
  {
     background-color: none;
@@ -322,6 +325,8 @@ input[type=text]
     box-sizing: border-box;
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.05);
+
 }
 input[type=button]{
     background-color: #000;
